@@ -1,0 +1,71 @@
+{
+  "name": "dota",
+  "version": "0.0.0",
+  "description": "Dota2 broadcast overlay",
+  "homepage": "http://nodecg.com/",
+  "author": {
+    "name": "Alexandr Efimchik",
+    "email": "efimchiksasha@gmail.com",
+    "url": "htpps://t.me/afimchik"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "1.4.0",
+    "dashboardPanels": [
+      {
+        "name": "aegis",
+        "title": "Aegis",
+        "width": 2,
+        "file": "aegis.html",
+        "headerColor": "#DB9702"
+      },
+      {
+        "name": "heroes",
+        "title": "Heroes",
+        "width": 4,
+        "file": "heroes.html",
+        "headerColor": "#2F363D"
+      },
+      {
+        "name": "smokes",
+        "title": "Smokes",
+        "width": 2,
+        "file": "smokes.html",
+        "headerColor": "#E558E6"
+      },
+      {
+        "name": "stats",
+        "title": "Statistics",
+        "width": 3,
+        "file": "stats.html",
+        "headerColor": "#4D7455"
+      },
+      {
+        "name": "teams",
+        "title": "Team logos",
+        "width": 2,
+        "file": "teams.html",
+        "headerColor": "#257DAE"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "basic/overlay.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "dependencies": {
+    "@polymer/paper-checkbox": "^3.1.0"
+  }
+}

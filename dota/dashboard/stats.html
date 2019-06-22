@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="js/stats.js"></script>
+	<link rel="import" href="/bower_components/polymer/polymer.html">
+	<link rel="import" href="/bower_components/paper-input/paper-input.html">
+	<link rel="import" href="/bower_components/paper-item/paper-item.html">
+	<link rel="import" href="/bower_components/paper-button/paper-button.html">
+	<link rel="import" href="/bundles/dota/bower_components/paper-checkbox/paper-checkbox.html">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="flex" style="padding-right: 5px">
+	<h2>What <i>stats</i> need to enable?</h2>
+	<input type="checkbox">Gpm
+	<paper-checkbox>GPM</paper-checkbox>
+	<paper-checkbox>XPM</paper-checkbox>
+	<paper-checkbox>Wards</paper-checkbox>
+	<paper-checkbox>Killstreak</paper-checkbox>
+	<paper-checkbox>Stacked capms</paper-checkbox>
+	<paper-button class="nodecg-reject" onclick="subtract()">Disable All</paper-button>
+	<paper-button class="nodecg-accept" onclick="add()">Enable All</paper-button>
+</div>
+</body>
+</html>

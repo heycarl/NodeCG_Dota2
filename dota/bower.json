@@ -1,0 +1,24 @@
+{
+  "name": "dota",
+  "description": "Dota2 broadcast overlay",
+  "main": "",
+  "authors": [
+    "Alexandr Efimchik"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "nodecg-bundle"
+  ],
+  "homepage": "https://github.com/nodecg/nodecg",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-checkbox": "Polymer/paper-checkbox#^0.5.6"
+  }
+}
