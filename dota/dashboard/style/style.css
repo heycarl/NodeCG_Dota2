@@ -108,3 +108,23 @@ a {
 	letter-spacing: 0.018em;
 	text-decoration: underline;
 }
+
+paper-checkbox.blue {
+	--paper-checkbox-checked-color: var(--paper-blue-500);
+	--paper-checkbox-checked-ink-color: var(--paper-blue-500);
+	--paper-checkbox-unchecked-color: var(--paper-blue-900);
+	--paper-checkbox-unchecked-ink-color: var(--paper-blue-900);
+	--paper-checkbox-label-color: var(--paper-blue-700);
+	--paper-checkbox-label-checked-color: var(--paper-blue-900);
+}
+
+paper-checkbox .title {
+	display: block;
+	font-size: 1.2em;
+}
+
+paper-checkbox .subtitle {
+	display: block;
+	font-size: 0.9em;
+	max-width: 150px;
+}
